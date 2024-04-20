@@ -23,4 +23,4 @@ jobs:
         run: pnpm install -g vercel
 
       - name: Deploy to Vercel
-        run: vercel --token ${{ secrets.VERCEL_TOKEN }} --deploy --prod
+        run: vercel --token ${{ secrets.VERCEL_DEPLOYER_TOKEN }} --deploy --prod
