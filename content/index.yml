@@ -1,0 +1,189 @@
+title: Cameroon National Breast Cancer Registry
+description: The CNBCR is Cameroon's national registry for breast cancer. We offer free and confidential registration, personalized risk assessments, and access to educational resources and support groups. Together, we can fight breast cancer and save lives.
+hero:
+  title: Cameroon National Breast Cancer Registry
+  description: We offer free and confidential registration, personalized risk assessments, and access to educational resources and support groups. Together, we can fight breast cancer and save lives.
+  headline:
+    label: Get Started Today
+    to: https://cnbcr.org
+    icon: i-heroicons-arrow-top-right-on-square-20-solid
+  links:
+    - label: Get started
+      icon: i-heroicons-arrow-right-20-solid
+      trailing: true
+      to: '#features'
+      size: xl
+    - label: View Demo
+      icon: i-simple-icons-youtube
+      size: xl
+      color: pink
+      to: https://github.com/
+      target: _blank
+logos:
+  title: Trusted by the top
+  icons:
+    - i-simple-icons-amazonaws
+    - i-simple-icons-googlegcp
+    - i-simple-icons-netlify
+    - i-simple-icons-vercel
+    - i-simple-icons-cloudflare
+
+features:
+  headline: Features
+  title: Unlocking Potential, Driving Impact
+  description: Explore the transformative capabilities of our breast cancer registry and its profound impact on healthcare.
+  items:
+    - title: Data Insights
+      description: Gain actionable insights into breast cancer trends and treatment outcomes.
+      icon: i-heroicons-search
+    - title: Community Engagement
+      description: Foster a supportive community for survivors and caregivers.
+      icon: i-heroicons-users
+    - title: Research Advancement
+      description: Accelerate breast cancer research through collaboration and data sharing.
+      icon: i-heroicons-beaker
+    - title: Advocacy Platform
+      description: Amplify awareness and advocacy efforts for breast cancer.
+      icon: i-heroicons-megaphone
+    - title: Personalized Care
+      description: Tailored support services for individual patient needs.
+      icon: i-heroicons-heart
+    - title: Global Impact
+      description: Contribute to a global movement to eradicate breast cancer.
+      icon: i-heroicons-globe
+
+pricing:
+  headline: Pricing
+  title: A plan for every need
+  description: Pariatur laborum dolor ea commodo sit aute aliquip qui et cillum excepteur.
+  plans:
+    - title: Basic
+      description: A basic plan for individuals.
+      price: $9.99
+      align: top
+      button:
+        label: Get Started
+        color: gray
+      features:
+        - 1 GB Storage
+        - 1 Email Account
+        - 1 Domain
+        - 1 Website
+        - 1 Database
+        - 1 SSL Certificate
+        - 1 Support Ticket
+    - title: Standard
+      description: A standard plan for small teams.
+      price: $19.99
+      highlight: true
+      scale: true
+      align: top
+      button:
+        label: Get Started
+      features:
+        - 10 GB Storage
+        - 10 Email Accounts
+        - 10 Domains
+        - 10 Websites
+        - 10 Databases
+        - 10 SSL Certificates
+        - 10 Support Tickets
+    - title: Premium
+      description: A premium plan for large teams.
+      price: $29.99
+      align: top
+      button:
+        label: Get Started
+        color: gray
+      features:
+        - 100 GB Storage
+        - 100 Email Accounts
+        - 100 Domains
+        - 100 Websites
+        - 100 Databases
+        - 100 SSL Certificates
+        - 100 Support Tickets
+
+
+testimonials:
+  headline: Testimonials
+  title: What our customers are saying.
+  description: Proident sunt exercitation minim laborum enim laboris labore esse.
+  items:
+    - quote: Nostrud tempor sunt fugiat. Dolor in sint dolore labore non occaecat adipisicing Lorem labore ullamco enim excepteur. In fugiat Lorem sit velit id veniam esse eiusmod non ea voluptate cupidatat reprehenderit ullamco dolore. Mollit laborum occaecat aliquip.
+      author:
+        name: Rose Roberson
+        description: CEO at Company
+        avatar:
+          src: https://i.pravatar.cc/120?img=1
+          loading: lazy
+    - quote: Eiusmod dolor aute ut nulla pariatur officia consequat aute amet exercitation.
+      author:
+        name: Chace Rodgers
+        description: CEO at Company
+        avatar:
+          src: https://i.pravatar.cc/120?img=7
+          loading: lazy
+    - quote: Id duis velit enim officia ad nisi incididunt magna ex dolor minim deserunt dolor. Esse incididunt cillum nostrud esse do quis amet labore amet nulla eiusmod amet nulla Lorem. Incididunt ex voluptate irure officia laboris ea proident est qui.
+      author:
+        name: Cornelius Sheppard
+        description: CEO at Company
+        avatar:
+          src: https://i.pravatar.cc/120?img=3
+          loading: lazy
+    - quote: Velit consectetur in adipisicing culpa eiusmod commodo eu ex dolore. Officia irure nisi dolor dolore velit fugiat. Aliqua sint aliqua aute elit eu sunt.
+      author:
+        name: Destinee Woods
+        description: CEO at Company
+        avatar:
+          src: https://i.pravatar.cc/120?img=5
+          loading: lazy
+    - quote: Proident quis deserunt qui ex exercitation veniam id Lorem est cupidatat ipsum irure aliquip ad.
+      author:
+        name: Kaleb Mccormick
+        description: CEO at Company
+        avatar:
+          src: https://i.pravatar.cc/120?img=8
+          loading: lazy
+    - quote: Magna officia quis ea ea in officia non voluptate ipsum culpa do labore sunt. Aute est dolore commodo sint officia ad laboris dolor magna aliquip exercitation tempor commodo.
+      author:
+        name: Jazmin Mccall
+        description: CEO at Company
+        avatar:
+          src: https://i.pravatar.cc/120?img=9
+          loading: lazy
+
+cta:
+  title: Get started today
+  description: Nisi mollit id aliquip sunt est laborum sit sit.
+  links:
+    - label: Sign up for free
+      size: xl
+
+faq:
+  title: Frequently asked questions
+  description: Here are some commonly asked questions about the Cameroon National Breast Cancer Registry and its operations.
+  items:
+    - label: What is the Cameroon National Breast Cancer Registry?
+      content: >
+        The Cameroon National Breast Cancer Registry is a centralized database that systematically collects and stores information about women diagnosed with breast cancer in Cameroon. It records detailed data on patient demographics, tumor characteristics, diagnostic procedures, treatment modalities, and outcomes.
+      defaultOpen: true
+    - label: What information does the registry collect?
+      content: >
+        The registry collects comprehensive information on breast cancer cases diagnosed and treated within Cameroon. This includes details such as patient demographics (age, sex, ethnicity), tumor characteristics (site, histology, grade), diagnostic methods (imaging, biopsy), treatment modalities (surgery, chemotherapy, radiotherapy), and follow-up outcomes (recurrence, metastasis, survival).
+    - label: How is the information used?
+      content: >
+        The information collected by the registry serves multiple purposes, including:
+        - Research: Facilitating epidemiological studies, clinical research, and health services research to better understand breast cancer trends, risk factors, and outcomes in Cameroon.
+        - Surveillance: Monitoring the incidence, prevalence, and distribution of breast cancer cases over time to inform public health policies and interventions.
+        - Quality Improvement: Evaluating the effectiveness of breast cancer prevention, diagnosis, and treatment strategies to improve the quality of care and patient outcomes.
+        - Resource Allocation: Guiding resource allocation and healthcare planning efforts to address the evolving needs of breast cancer patients and healthcare providers.
+    - label: Who can access the registry data?
+      content: >
+        Access to registry data is restricted to authorized users, including researchers, healthcare professionals, policymakers, and public health officials. Researchers may apply for access to de-identified data for approved research projects, subject to ethical and legal approval. Healthcare professionals involved in patient care may access relevant data to support clinical decision-making and quality improvement initiatives.
+    - label: Is my personal information kept confidential?
+      content: >
+        Yes, the registry adheres to strict confidentiality protocols to protect the privacy of patient information. Personal identifiers are securely stored and only accessible to authorized personnel for approved purposes. Data released for research purposes are anonymized or de-identified to ensure patient privacy and comply with data protection regulations.
+    - label: How can I contribute to the registry?
+      content: >
+        Women diagnosed with breast cancer in Cameroon can contribute to the registry by consenting to have their information included in the database. Participation is voluntary and involves providing consent for healthcare providers to report relevant data to the registry. By participating in the registry, patients contribute valuable information that helps improve breast cancer care and outcomes for future patients.
