@@ -1,8 +1,7 @@
-title: Cameroon National Breast Cancer Registry
-description: The CNBCR is Cameroon's national registry for breast cancer. We offer free and confidential registration, personalized risk assessments, and access to educational resources and support groups. Together, we can fight breast cancer and save lives.
-hero:
-  title: Cameroon National Breast Cancer Registry
-  description: We offer free and confidential registration, personalized risk assessments, and access to educational resources and support groups. Together, we can fight breast cancer and save lives.
+title: The Anora Breast Cancer Research Foundation
+description: The Anora Breast Cancer Research Foundation is a dedicated organization committed to empowering individuals and communities in the fight against breast cancer. Our mission is to promote early detection, provide support for women affected by breast cancer, and fund cutting-edge research that brings us closer to a cure.
+  title: The Anora Breast Cancer Research Foundation
+  description: hrough education, research funding, and patient resources, we strive to create a future free from breast cancer. "Join The Pink Side of the Force" and stand with us in this fight.
   headline:
     label: Get Started Today
     to: https://cnbcr.org
@@ -46,7 +45,7 @@ features:
       description: Amplify awareness and advocacy efforts for breast cancer.
       icon: i-heroicons-megaphone
     - title: Personalized Care
-      description: Tailored support services for individual patient needs.
+      description: Tailored support services for individual and families affected by breast cancer.
       icon: i-heroicons-heart
     - title: Global Impact
       description: Contribute to a global movement to eradicate breast cancer.
