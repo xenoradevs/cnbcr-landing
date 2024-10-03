@@ -1,12 +1,67 @@
 title: The Anora Breast Cancer Research Foundation
 description: The Anora Breast Cancer Research Foundation is a dedicated organization committed to empowering individuals and communities in the fight against breast cancer. Our mission is to promote early detection, provide support for women affected by breast cancer, and fund cutting-edge research that brings us closer to a cure.
-  title: The Anora Breast Cancer Research Foundation
-  description: hrough education, research funding, and patient resources, we strive to create a future free from breast cancer. "Join The Pink Side of the Force" and stand with us in this fight.
-  headline:
+hero:
+  title: Empowering Lives, Inspiring Hope
+  description: Join us in the fight against breast cancer and make a difference
+  image:
+    src: /hero_bg.png
+    alt: Hero Image
+  links:
+    - label: Get started
+      icon: i-heroicons-arrow-right-20-solid
+      trailing: true
+      to: '#features'
+      size: xl
+    - label: View Demo
+      icon: i-simple-icons-youtube
+      size: xl
+      color: pink
+      to: https://github.com/
+      target: _blank
+mission:
+  headline: Our Mission
+  title: reduce the burden of breast cancer by pioneering new research methods
+  description: The Anora Breast Cancer Research Foundation is dedicated to empowering individuals and communities in the fight against breast cancer. Our mission is to promote early detection, provide support
+  links:
+    - label: About ABCRF
+      to: '#'
+      size: xl
+      color: pink
+      icon: i-heroicons-arrow-right-20-solid
+      trailing: true
+awareness:
+  headline: Awareness
+  title: Key facts about Breast cancer
+  image:
+    src: /awareness.jpg
+    alt: Awareness Image
+  points:
+    - name: 670,000 deaths globally
+      description: Breast cancer caused 670 000 deaths globally in 2022.
+      icon: i-heroicons-heart
+    - name: Risk Beyond Sex and Age
+      description: Roughly half of all breast cancers occur in women with no specific risk factors other than sex and age.
+      icon: i-heroicons-users
+    - name: most common cancer in women
+      description: Breast cancer was the most common cancer in women in 157 countries out of 185 in 2022.
+      icon: i-heroicons-globe-europe-africa
+    - name: affect all country
+      description: Breast cancer was the most common cancer in women in 157 countries out of 185 in 2022.
+      icon: i-heroicons-globe-alt
+    - name: men can get breast cancer
+      description: Approximately 0.5–1% of breast cancers occur in men.
+      icon: i-heroicons-exclamation-triangle
+
+
+
+
+
+
+headline:
     label: Get Started Today
     to: https://cnbcr.org
     icon: i-heroicons-arrow-top-right-on-square-20-solid
-  links:
+    links:
     - label: Get started
       icon: i-heroicons-arrow-right-20-solid
       trailing: true
@@ -28,28 +83,29 @@ logos:
     - i-simple-icons-cloudflare
 
 features:
-  headline: Features
-  title: Unlocking Potential, Driving Impact
-  description: Explore the transformative capabilities of our breast cancer registry and its profound impact on healthcare.
+  headline: Research
+  title: reducing mortality and improving quality.
+  description: We drives innovation through key research projects aimed at reducing breast cancer mortality and improving quality of life for survivors.
   items:
-    - title: Data Insights
-      description: Gain actionable insights into breast cancer trends and treatment outcomes.
+    - title:  IntelliBra Project
+      description: a cutting-edge wearable technology that enables early breast cancer detection.
       icon: i-heroicons-search
-    - title: Community Engagement
-      description: Foster a supportive community for survivors and caregivers.
+    - title: Research Focus
+      description: Early detection, wearable technology, underserved communities.
       icon: i-heroicons-users
-    - title: Research Advancement
-      description: Accelerate breast cancer research through collaboration and data sharing.
+    - title:  Cameroon National Cancer Registry (CNCR)
+      description: collaborativ effort to establish a nationwide cancer registry in Cameroon, designed to collect, analyze, and disseminate data on cancer cases
       icon: i-heroicons-beaker
-    - title: Advocacy Platform
-      description: Amplify awareness and advocacy efforts for breast cancer.
-      icon: i-heroicons-megaphone
-    - title: Personalized Care
-      description: Tailored support services for individual and families affected by breast cancer.
-      icon: i-heroicons-heart
-    - title: Global Impact
-      description: Contribute to a global movement to eradicate breast cancer.
-      icon: i-heroicons-globe
+
+    # - title: Advocacy Platform
+    #   description: Amplify awareness and advocacy efforts for breast cancer.
+    #   icon: i-heroicons-megaphone
+    # - title: Personalized Care
+    #   description: Tailored support services for individual and families affected by breast cancer.
+    #   icon: i-heroicons-heart
+    # - title: Global Impact
+    #   description: Contribute to a global movement to eradicate breast cancer.
+    #   icon: i-heroicons-globe
 
 pricing:
   headline: Pricing

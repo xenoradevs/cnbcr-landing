@@ -3,26 +3,34 @@ const nuxtApp = useNuxtApp()
 const { activeHeadings, updateHeadings } = useScrollspy()
 
 const links = computed(() => [{
-  label: 'Features',
-  to: '#features',
+  label: 'About Us',
+  to: '/about-us',
   icon: 'i-heroicons-cube-transparent',
-  active: activeHeadings.value.includes('features') && !activeHeadings.value.includes('pricing')
+  active: activeHeadings.value.includes('about-us')
 }, {
-  label: 'Pricing',
-  to: '#pricing',
+  label: 'Awareness',
+  to: '/awareness',
   icon: 'i-heroicons-credit-card',
-  active: activeHeadings.value.includes('pricing') && !activeHeadings.value.includes('testimonials')
+  active: activeHeadings.value.includes('awareness')
 }, {
-  label: 'Testimonials',
-  to: '#testimonials',
+  label: 'Donate',
+  to: '/donate',
   icon: 'i-heroicons-academic-cap',
-  active: activeHeadings.value.includes('testimonials')
+  active: activeHeadings.value.includes('donate')
 }, {
-  label: 'FAQ',
-  to: '#faq',
+  label: 'News & Events',
+  to: '/news-events',
   icon: 'i-heroicons-question-mark-circle',
-  active: activeHeadings.value.includes('faq')
-}])
+  active: activeHeadings.value.includes('news-events')
+},
+{
+  label: 'Contact Us',
+  to: '/contact-us',
+  icon: 'i-heroicons-question-mark-circle',
+  active: activeHeadings.value.includes('contact-us')
+},
+
+])
 
 nuxtApp.hooks.hookOnce('page:finish', () => {
   updateHeadings([
