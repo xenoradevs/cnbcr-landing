@@ -114,7 +114,7 @@ pricing:
   plans:
     - title: Volunteer Opportunities
       description: interested in community outreach, patient support, or helping with research? we have opportunities for you to get involved.
-      price: $0
+      price: $Will
       align: top
       button:
         label: Get Started
@@ -130,7 +130,7 @@ pricing:
         # - 1 Support Ticket
     - title: Donate
       description: Every contribution, no matter the size, helps us move closer to a world without breast cancer.
-      price: $x
+      price: $Empathy
       highlight: true
       scale: true
       align: top
@@ -148,7 +148,7 @@ pricing:
         # - 10 Support Tickets
     - title: Join Our Fundraising
       description: Attend or host fundraising events to support the Anora Foundation. From charity runs to gala dinners.
-      price: $y
+      price: $Passion
       align: top
       button:
         label: Get Started
