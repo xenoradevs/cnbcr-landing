@@ -24,7 +24,7 @@ useSeoMeta({
           />
         </UBadge>
       </template>
- 
+
       <!-- <Placeholder /> -->
       <img
         :src="page.hero.image.src" alt="Hero image"
@@ -66,18 +66,14 @@ useSeoMeta({
       >
     </ULandingSection>
 
-    <ULandingSection
-      :headline="page.mission.headline"
-      :title="page.mission.title"
-      :description="page.mission.description" :links="page.mission.links"
-    />
-
-    <!--
+ 
     <ULandingSection :title="page.pricing.title" :description="page.pricing.description" :headline="page.pricing.headline">
       <UPricingGrid id="pricing" compact class="scroll-mt-[calc(var(--header-height)+140px+128px+96px)]">
         <UPricingCard v-for="(plan, index) in page.pricing.plans" :key="index" v-bind="plan" />
       </UPricingGrid>
     </ULandingSection>
+    <!--
+
     <ULandingSection
       :title="page.pricing.title" :description="page.pricing.description"
       :headline="page.pricing.headline"
@@ -120,6 +116,7 @@ useSeoMeta({
       <ULandingCTA v-bind="page.cta" :card="false" />
     </ULandingSection>
 
+   -->
     <ULandingSection
       id="faq" :title="page.faq.title" :description="page.faq.description"
       class="scroll-mt-[var(--header-height)]"
@@ -134,6 +131,6 @@ useSeoMeta({
           }
         }" class="max-w-4xl mx-auto"
       />
-    </ULandingSection> -->
+    </ULandingSection>
   </div>
 </template>

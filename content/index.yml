@@ -108,56 +108,60 @@ features:
     #   icon: i-heroicons-globe
 
 pricing:
-  headline: Pricing
-  title: A plan for every need
-  description: Pariatur laborum dolor ea commodo sit aute aliquip qui et cillum excepteur.
+  headline: Get Involved
+  title: Help us make a difference
+  description: Become part of the Anora community and help us make a difference in the fight against breast cancer.
   plans:
-    - title: Basic
-      description: A basic plan for individuals.
-      price: $9.99
+    - title: Volunteer Opportunities
+      description: interested in community outreach, patient support, or helping with research? we have opportunities for you to get involved.
+      price: $0
       align: top
       button:
         label: Get Started
         color: gray
+        to: /donate
       features:
-        - 1 GB Storage
-        - 1 Email Account
-        - 1 Domain
-        - 1 Website
-        - 1 Database
-        - 1 SSL Certificate
-        - 1 Support Ticket
-    - title: Standard
-      description: A standard plan for small teams.
-      price: $19.99
+        - Join a Volunteer Team
+        - Become an Ambassador
+        - Stay Informed and Inspired
+        # - 1 Website
+        # - 1 Database
+        # - 1 SSL Certificate
+        # - 1 Support Ticket
+    - title: Donate
+      description: Every contribution, no matter the size, helps us move closer to a world without breast cancer.
+      price: $x
       highlight: true
       scale: true
       align: top
       button:
         label: Get Started
+        to: /donate
+
       features:
-        - 10 GB Storage
-        - 10 Email Accounts
-        - 10 Domains
-        - 10 Websites
-        - 10 Databases
-        - 10 SSL Certificates
-        - 10 Support Tickets
-    - title: Premium
-      description: A premium plan for large teams.
-      price: $29.99
+        - One-Time Donation
+        - Monthly Giving
+        # - 10 Domains
+        # - 10 Websites
+        # - 10 Databases
+        # - 10 SSL Certificates
+        # - 10 Support Tickets
+    - title: Join Our Fundraising
+      description: Attend or host fundraising events to support the Anora Foundation. From charity runs to gala dinners.
+      price: $y
       align: top
       button:
         label: Get Started
         color: gray
+        to: /donate
       features:
-        - 100 GB Storage
-        - 100 Email Accounts
-        - 100 Domains
-        - 100 Websites
-        - 100 Databases
-        - 100 SSL Certificates
-        - 100 Support Tickets
+        - Get Active for a Cause
+        - Host Your Own Event
+        - Exclusive Gala Dinners
+        # - 100 Websites
+        # - 100 Databases
+        # - 100 SSL Certificates
+        # - 100 Support Tickets
 
 
 testimonials:
